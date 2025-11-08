@@ -54,11 +54,38 @@ body {
     backdrop-filter: blur(10px);
     box-shadow: var(--shadow-sm);
     z-index: 1000;
-    transition: var(--transition);
+    transition: all 0.3s ease;
 }
 
 .navbar.scrolled {
     box-shadow: var(--shadow-md);
+    padding: 0;
+}
+
+.navbar.scrolled .nav-content {
+    padding: 8px 0;
+}
+
+.navbar.scrolled .logo {
+    font-size: 18px;
+}
+
+.navbar.scrolled .logo-sub {
+    font-size: 11px;
+}
+
+.navbar.scrolled .nav-menu a {
+    font-size: 13px;
+}
+
+.navbar.scrolled .btn-contact {
+    padding: 6px 16px;
+    font-size: 13px;
+}
+
+.navbar.scrolled .lang-btn {
+    padding: 4px 10px;
+    font-size: 11px;
 }
 
 .nav-content {
