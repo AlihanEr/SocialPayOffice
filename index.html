@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Social Pay Office - Professional payroll and HR management services for Belgian businesses">
+    <title>Social Pay Office - Professional Payroll Services</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">Social Pay</span>
+                    <span class="logo-sub">Office</span>
+                </a>
+                <ul class="nav-menu">
+                    <li><a href="#services" data-i18n="nav.services">Services</a></li>
+                    <li><a href="#about" data-i18n="nav.about">About</a></li>
+                    <li><a href="#contact" class="btn-contact" data-i18n="nav.contact">Contact Us</a></li>
+                    <li class="language-switcher">
+                        <button class="lang-btn active" data-lang="en">EN</button>
+                        <button class="lang-btn" data-lang="fr">FR</button>
+                        <button class="lang-btn" data-lang="nl">NL</button>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-title-main" data-i18n="hero.titleMain">Professional Payroll Solutions</span>
+                    <span class="hero-title-sub" data-i18n="hero.titleSub">For Your Business</span>
+                </h1>
+                <p class="hero-slogan" data-i18n="hero.slogan">Reliable & Compliant Service</p>
+                <p class="hero-description" data-i18n="hero.description">
+                    Expert social secretariat services designed for Belgian businesses. We handle your payroll, compliance, and HR administration so you can focus on growing your business.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary" data-i18n="hero.btnExplore">Explore Services</a>
+                    <a href="#contact" class="btn btn-secondary" data-i18n="hero.btnQuote">Get a Quote</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label" data-i18n="hero.statClients">Happy Clients</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label" data-i18n="hero.statExperience">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label" data-i18n="hero.statCompliance">Compliance Rate</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="services.tag">What We Offer</span>
+                <h2 class="section-title" data-i18n="services.title">Our Services</h2>
+                <p class="section-description" data-i18n="services.description">Comprehensive solutions for all your payroll and HR needs</p>
+            </div>
+            <div class="services-grid">
+                <!-- Service Card 1: Payroll Management -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                    </div>
+                    <h3 class="service-title" data-i18n="services.payroll.title">Payroll Management</h3>
+                    <p class="service-description" data-i18n="services.payroll.description">Complete payroll processing, salary calculations, and payment administration for your employees</p>
+                    <ul class="service-features">
+                        <li data-i18n="services.payroll.feature1">Monthly salary processing</li>
+                        <li data-i18n="services.payroll.feature2">Tax calculations & filing</li>
+                        <li data-i18n="services.payroll.feature3">Social security declarations</li>
+                    </ul>
+                </div>
+
+                <!-- Service Card 2: Salary Optimization -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="service-title" data-i18n="services.optimization.title">Salary Optimization</h3>
+                    <p class="service-description" data-i18n="services.optimization.description">Strategic advice to optimize your payroll costs while ensuring full compliance</p>
+                    <ul class="service-features">
+                        <li data-i18n="services.optimization.feature1">Cost analysis & reporting</li>
+                        <li data-i18n="services.optimization.feature2">Tax efficiency strategies</li>
+                        <li data-i18n="services.optimization.feature3">Benefits optimization</li>
+                    </ul>
+                </div>
+
+                <!-- Service Card 3: Legal Advice -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                            <polyline points="14 2 14 8 20 8"></polyline>
+                            <line x1="16" y1="13" x2="8" y2="13"></line>
+                            <line x1="16" y1="17" x2="8" y2="17"></line>
+                        </svg>
+                    </div>
+                    <h3 class="service-title" data-i18n="services.legal.title">Legal Advice</h3>
+                    <p class="service-description" data-i18n="services.legal.description">Expert guidance on employment law and social legislation in Belgium</p>
+                    <ul class="service-features">
+                        <li data-i18n="services.legal.feature1">Employment contracts</li>
+                        <li data-i18n="services.legal.feature2">Regulatory compliance</li>
+                        <li data-i18n="services.legal.feature3">Dispute resolution</li>
+                    </ul>
+                </div>
+
+                <!-- Service Card 4: HR Tools -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3 class="service-title" data-i18n="services.hr.title">HR Tools</h3>
+                    <p class="service-description" data-i18n="services.hr.description">Modern digital tools to streamline your HR processes and administration</p>
+                    <ul class="service-features">
+                        <li data-i18n="services.hr.feature1">Employee portal access</li>
+                        <li data-i18n="services.hr.feature2">Time & attendance tracking</li>
+                        <li data-i18n="services.hr.feature3">Document management</li>
+                    </ul>
+                </div>
+
+                <!-- Service Card 5: Social Audits -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="service-title" data-i18n="services.audits.title">Social Audits</h3>
+                    <p class="service-description" data-i18n="services.audits.description">Comprehensive audits to ensure social compliance and minimize your risks</p>
+                    <ul class="service-features">
+                        <li data-i18n="services.audits.feature1">Compliance verification</li>
+                        <li data-i18n="services.audits.feature2">Risk assessment</li>
+                        <li data-i18n="services.audits.feature3">Detailed audit reports</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose">
+        <div class="container">
+            <div class="why-choose-content">
+                <div class="section-header">
+                    <span class="section-tag" data-i18n="whyChoose.tag">Why Choose Us</span>
+                    <h2 class="section-title" data-i18n="whyChoose.title">Your Trusted Partner</h2>
+                    <p class="section-description" data-i18n="whyChoose.description">We provide reliable, professional payroll services with a personal touch</p>
+                </div>
+                <div class="features-list">
+                    <div class="feature-item">
+                        <div class="feature-icon">✓</div>
+                        <div class="feature-content">
+                            <h4 data-i18n="whyChoose.feature1Title">Expert Knowledge</h4>
+                            <p data-i18n="whyChoose.feature1Desc">Deep expertise in Belgian social legislation and payroll regulations</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">✓</div>
+                        <div class="feature-content">
+                            <h4 data-i18n="whyChoose.feature2Title">Personal Service</h4>
+                            <p data-i18n="whyChoose.feature2Desc">Dedicated account manager for personalized support</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">✓</div>
+                        <div class="feature-content">
+                            <h4 data-i18n="whyChoose.feature3Title">Full Compliance</h4>
+                            <p data-i18n="whyChoose.feature3Desc">100% compliance with Belgian social security and tax regulations</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">✓</div>
+                        <div class="feature-content">
+                            <h4 data-i18n="whyChoose.feature4Title">Digital Solutions</h4>
+                            <p data-i18n="whyChoose.feature4Desc">Modern technology platform for easy access and transparency</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="about.tag">About Us</span>
+                <h2 class="section-title" data-i18n="about.title">Who We Are</h2>
+            </div>
+            <div class="about-content">
+                <p class="about-text" data-i18n="about.text">
+                    With years of expertise in social secretariat services, we provide reliable and professional support to businesses of all sizes across Belgium. Our team of certified experts ensures your payroll and HR processes run smoothly and in full compliance with Belgian regulations. We combine traditional expertise with modern technology to deliver exceptional service at competitive prices.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="contact.tag">Get In Touch</span>
+                <h2 class="section-title" data-i18n="contact.title">Contact Us</h2>
+                <p class="section-description" data-i18n="contact.description">Ready to simplify your payroll? Get in touch today</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact.locationTitle">Office</h4>
+                            <p data-i18n="contact.locationText">Brussels, Belgium</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact.phoneTitle">Phone</h4>
+                            <p>+32 2 123 45 67</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-i18n="contact.emailTitle">Email</h4>
+                            <p>info@socialpayoffice.be</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" data-i18n-placeholder="contact.formName" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" data-i18n-placeholder="contact.formEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="Phone Number" data-i18n-placeholder="contact.formPhone">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Tell us about your needs" data-i18n-placeholder="contact.formMessage" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" data-i18n="contact.formButton">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <span class="logo-text">Social Pay</span>
+                        <span class="logo-sub">Office</span>
+                    </div>
+                    <p class="footer-description" data-i18n="footer.description">Professional payroll services for Belgian businesses. Reliable, compliant, and personal.</p>
+                </div>
+                <nav class="footer-nav">
+                    <a href="#services" data-i18n="nav.services">Services</a>
+                    <a href="#about" data-i18n="nav.about">About</a>
+                    <a href="#contact" data-i18n="nav.contact">Contact</a>
+                </nav>
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Social Pay Office. <span data-i18n="footer.rights">All rights reserved.</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
