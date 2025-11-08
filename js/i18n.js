@@ -100,6 +100,54 @@ const translations = {
         footer: {
             description: "Professional payroll services for Belgian businesses. Reliable, compliant, and personal.",
             rights: "All rights reserved."
+        },
+        aboutPage: {
+            hero: {
+                title: "About Us",
+                subtitle: "Social Pay Office, efficiency and trust at the heart of your human resources."
+            },
+            intro: {
+                title: "Who We Are",
+                text1: "Social Pay Office supports small and medium-sized businesses in the complete management of their payroll and human resources.",
+                text2: "We offer personalized solutions that combine performance, compliance and peace of mind.",
+                text3: "As a local partner, we handle all aspects related to payroll: calculations, declarations, legal and administrative monitoring. You benefit from automated, optimized payroll management that is always compliant with current legislation.",
+                text4: "Our team of HR experts, with over 10 years of experience, also advises you on drafting employment contracts, implementing internal policies or alternative compensation systems.",
+                text5: "Entrust us with managing your social obligations and focus on what you do best: growing your business."
+            },
+            servicesIntro: {
+                title: "Our Services",
+                description: "Comprehensive expertise for your payroll and HR management"
+            },
+            payrollDetail: {
+                title: "Payroll Management",
+                subtitle: "Benefit from complete support in payroll and administrative management",
+                text1: "In any company, accurate payroll management and reliable personnel administration are essential for proper functioning and growth.",
+                text2: "With Social Pay Office, you benefit from several years of expertise and know-how in HR management and personnel policy. Our approach is based on three principles: reliability, personalized support and proactivity, to offer you optimal payroll management.",
+                text3: "With Social Pay Office, focus on the essentials — the development of your business — while we take care of your payroll and personnel administration."
+            },
+            optimizationDetail: {
+                title: "Salary Optimization",
+                text1: "At Social Pay Office, we support professionals and businesses in salary optimization. Our goal: maximize the value of your compensation while respecting legal and tax constraints.",
+                text2: "Through a personalized approach, we analyze your overall situation and identify areas for improvement: bonuses, benefits in kind, employee savings, advantageous tax schemes... Each solution is designed to secure your financial future.",
+                text3: "Salary optimization is not just about numbers: it's a strategy to better recognize talent, motivate teams and ensure efficient human resources management. Choose compensation adapted to your ambitions."
+            },
+            legalDetail: {
+                title: "Legal Advice",
+                text1: "In a constantly evolving social and legal environment, companies must face complex and often changing obligations. Specialized support is essential to prevent risks and ensure compliance with your practices.",
+                text2: "At Social Pay Office, our team of experts provides you with personalized legal advice adapted to your organization. Whether for drafting contracts, managing labor relations, applying social legislation or preventing disputes, we help you make informed and secure decisions.",
+                text3: "Thanks to our expertise, you benefit from rigorous and practical support, allowing you to focus your efforts on developing your business with complete peace of mind."
+            },
+            hrToolsDetail: {
+                title: "HR Tools",
+                text1: "Social Pay Office is a reliable partner, fully aware of the environment and needs of SMEs. For efficient and professional personnel management, we provide you with communication tools adapted to your company. Thanks to our simple and intuitive HR solutions, we contribute to the effective digitalization of your personnel administration.",
+                text2: "E-Services is an intuitive HR tool that gives you a clear view of the essential aspects of your personnel management.",
+                text3: "Prisma VPN offers a complete overview of payroll and personnel management for your SME. This powerful tool allows you to efficiently manage payroll calculations and legal declarations."
+            },
+            auditsDetail: {
+                title: "Social Audits",
+                text1: "Every company can be subject to a social inspection visit. In this case, it is crucial to provide complete and perfectly compliant documents. The inspection can also proceed to interview your employees, which makes rigorous preparation and reliable advice essential.",
+                text2: "Our experts support you throughout the audit process to ensure full compliance and minimize risks."
+            }
         }
     },
     fr: {
@@ -202,6 +250,54 @@ const translations = {
         footer: {
             description: "Services de paie professionnels pour les entreprises belges. Fiables, conformes et personnels.",
             rights: "Tous droits réservés."
+        },
+        aboutPage: {
+            hero: {
+                title: "À Propos de Nous",
+                subtitle: "Social Pay Office, l'efficacité et la confiance au cœur de vos ressources humaines."
+            },
+            intro: {
+                title: "Qui Nous Sommes",
+                text1: "Social Pay Office accompagne les petites et moyennes entreprises dans la gestion complète de leurs salaires et de leurs ressources humaines.",
+                text2: "Nous proposons des solutions personnalisées qui allient performance, conformité et tranquillité d'esprit.",
+                text3: "En tant que partenaire de proximité, nous prenons en charge tous les aspects liés à la paie : calculs, déclarations, suivi juridique et administratif. Vous bénéficiez ainsi d'une gestion salariale automatisée, optimisée et toujours conforme à la législation en vigueur.",
+                text4: "Notre équipe d'experts RH, forte de plus de 10 ans d'expérience, vous conseille également dans la rédaction de contrats de travail, la mise en place de politiques internes ou encore les systèmes de rémunération alternatifs.",
+                text5: "Confiez-nous la gestion de vos obligations sociales et concentrez-vous sur ce que vous faites de mieux : faire grandir votre entreprise."
+            },
+            servicesIntro: {
+                title: "Nos Services",
+                description: "Une expertise complète pour votre gestion salariale et RH"
+            },
+            payrollDetail: {
+                title: "Gestion des Salaires",
+                subtitle: "Bénéficiez d'un accompagnement complet en gestion salariale et administrative",
+                text1: "Dans toute entreprise, une gestion précise des salaires et une administration du personnel fiable sont essentielles au bon fonctionnement et à la croissance.",
+                text2: "Avec Social Pay Office, vous profitez de plusieurs années d'expertise et d'un savoir-faire en matière de gestion RH et de politique du personnel. Notre approche repose sur trois principes : fiabilité, accompagnement personnalisé et proactivité, pour vous offrir une gestion du payroll optimale.",
+                text3: "Avec Social Pay Office, concentrez-vous sur l'essentiel — le développement de votre entreprise — pendant que nous prenons en charge vos salaires et votre administration du personnel."
+            },
+            optimizationDetail: {
+                title: "Optimisation Salariale",
+                text1: "Chez Social Pay Office nous accompagnons les professionnels et les entreprises dans l'optimisation salariale. Notre objectif : maximiser la valeur de votre rémunération tout en respectant les contraintes légales et fiscales.",
+                text2: "Grâce à une approche personnalisée, nous analysons votre situation globale et identifions les leviers d'amélioration : primes, avantages en nature, épargne salariale, dispositifs fiscaux avantageux… Chaque solution est pensée pour sécuriser votre avenir financier.",
+                text3: "L'optimisation salariale n'est pas seulement une question de chiffres : c'est une stratégie pour mieux reconnaître le talent, motiver les équipes et garantir une gestion efficace des ressources humaines. Faites le choix d'une rémunération adaptée à vos ambitions."
+            },
+            legalDetail: {
+                title: "Conseils Juridiques",
+                text1: "Dans un environnement social et juridique en constante évolution, les entreprises doivent faire face à des obligations complexes et souvent changeantes. Un accompagnement spécialisé est essentiel pour prévenir les risques et assurer la conformité de vos pratiques.",
+                text2: "Chez Social Pay Office, notre équipe d'experts vous fournit des conseils juridiques personnalisés et adaptés à votre organisation. Que ce soit pour la rédaction de contrats, la gestion des relations de travail, l'application de la législation sociale ou la prévention des litiges, nous vous aidons à prendre des décisions éclairées et sécurisées.",
+                text3: "Grâce à notre expertise, vous bénéficiez d'un accompagnement rigoureux et pratique, vous permettant de concentrer vos efforts sur le développement de votre activité en toute sérénité."
+            },
+            hrToolsDetail: {
+                title: "Outils RH",
+                text1: "Social Pay Office est un partenaire fiable, parfaitement conscient de l'environnement et des besoins des PME. Pour une gestion du personnel efficace et professionnelle, nous mettons à votre disposition des outils de communication adaptés à votre entreprise. Grâce à nos solutions RH simples et intuitives, nous contribuons à une digitalisation performante de votre administration du personnel.",
+                text2: "E-Services est un outil RH intuitif qui vous offre une vision claire des aspects essentiels de la gestion de votre personnel.",
+                text3: "Prisma VPN offre une vue d'ensemble complète de la gestion salariale et du personnel de votre PME. Cet outil performant vous permet de gérer avec efficacité les calculs de salaires et les déclarations légales."
+            },
+            auditsDetail: {
+                title: "Contrôles Sociaux",
+                text1: "Chaque entreprise peut être soumise à une visite de l'inspection sociale. Dans ce cas, il est crucial de fournir des documents complets et parfaitement conformes. L'inspection peut également procéder à l'audition de vos collaborateurs, ce qui rend une préparation rigoureuse et des conseils fiables indispensables.",
+                text2: "Nos experts vous accompagnent tout au long du processus d'audit pour garantir une conformité totale et minimiser les risques."
+            }
         }
     },
     nl: {
@@ -304,6 +400,54 @@ const translations = {
         footer: {
             description: "Professionele loondiensten voor Belgische bedrijven. Betrouwbaar, conform en persoonlijk.",
             rights: "Alle rechten voorbehouden."
+        },
+        aboutPage: {
+            hero: {
+                title: "Over Ons",
+                subtitle: "Social Pay Office, efficiëntie en vertrouwen in het hart van uw human resources."
+            },
+            intro: {
+                title: "Wie Wij Zijn",
+                text1: "Social Pay Office begeleidt kleine en middelgrote ondernemingen in het volledige beheer van hun lonen en human resources.",
+                text2: "Wij bieden gepersonaliseerde oplossingen die prestaties, compliance en gemoedsrust combineren.",
+                text3: "Als lokale partner nemen wij alle aspecten van loonbeheer voor onze rekening: berekeningen, aangiften, juridische en administratieve monitoring. U profiteert van geautomatiseerd, geoptimaliseerd loonbeheer dat altijd voldoet aan de huidige wetgeving.",
+                text4: "Ons team van HR-experts, met meer dan 10 jaar ervaring, adviseert u ook bij het opstellen van arbeidscontracten, het implementeren van intern beleid of alternatieve beloningssystemen.",
+                text5: "Vertrouw ons het beheer van uw sociale verplichtingen toe en concentreer u op wat u het beste doet: uw bedrijf laten groeien."
+            },
+            servicesIntro: {
+                title: "Onze Diensten",
+                description: "Uitgebreide expertise voor uw loon- en HR-beheer"
+            },
+            payrollDetail: {
+                title: "Loonbeheer",
+                subtitle: "Profiteer van volledige ondersteuning bij loon- en administratief beheer",
+                text1: "In elk bedrijf zijn nauwkeurig loonbeheer en betrouwbaar personeelsbeheer essentieel voor een goede werking en groei.",
+                text2: "Met Social Pay Office profiteert u van jarenlange expertise en knowhow op het gebied van HR-beheer en personeelsbeleid. Onze aanpak is gebaseerd op drie principes: betrouwbaarheid, persoonlijke begeleiding en proactiviteit, om u optimaal loonbeheer te bieden.",
+                text3: "Met Social Pay Office concentreert u zich op het essentiële — de ontwikkeling van uw bedrijf — terwijl wij uw lonen en personeelsadministratie verzorgen."
+            },
+            optimizationDetail: {
+                title: "Salaris Optimalisatie",
+                text1: "Bij Social Pay Office begeleiden wij professionals en bedrijven bij salarisoptimalisatie. Ons doel: de waarde van uw beloning maximaliseren met respect voor wettelijke en fiscale beperkingen.",
+                text2: "Dankzij een gepersonaliseerde aanpak analyseren wij uw algehele situatie en identificeren wij verbeterpunten: bonussen, voordelen in natura, werknemerssparen, voordelige fiscale regelingen... Elke oplossing is ontworpen om uw financiële toekomst te beveiligen.",
+                text3: "Salarisoptimalisatie gaat niet alleen over cijfers: het is een strategie om talent beter te erkennen, teams te motiveren en efficiënt human resources management te garanderen. Kies voor beloning aangepast aan uw ambities."
+            },
+            legalDetail: {
+                title: "Juridisch Advies",
+                text1: "In een constant veranderende sociale en juridische omgeving moeten bedrijven complexe en vaak veranderende verplichtingen het hoofd bieden. Gespecialiseerde ondersteuning is essentieel om risico's te voorkomen en de naleving van uw praktijken te waarborgen.",
+                text2: "Bij Social Pay Office biedt ons team van experts u gepersonaliseerd juridisch advies aangepast aan uw organisatie. Of het nu gaat om het opstellen van contracten, het beheren van arbeidsverhoudingen, het toepassen van sociale wetgeving of het voorkomen van geschillen, wij helpen u weloverwogen en veilige beslissingen te nemen.",
+                text3: "Dankzij onze expertise profiteert u van rigoureuze en praktische ondersteuning, waardoor u uw inspanningen kunt concentreren op de ontwikkeling van uw activiteit met volledige gemoedsrust."
+            },
+            hrToolsDetail: {
+                title: "HR Hulpmiddelen",
+                text1: "Social Pay Office is een betrouwbare partner, volledig op de hoogte van de omgeving en behoeften van KMO's. Voor efficiënt en professioneel personeelsbeheer stellen wij u communicatietools ter beschikking die zijn aangepast aan uw bedrijf. Dankzij onze eenvoudige en intuïtieve HR-oplossingen dragen wij bij aan de effectieve digitalisering van uw personeelsadministratie.",
+                text2: "E-Services is een intuïtieve HR-tool die u een duidelijk beeld geeft van de essentiële aspecten van uw personeelsbeheer.",
+                text3: "Prisma VPN biedt een volledig overzicht van loon- en personeelsbeheer voor uw KMO. Deze krachtige tool stelt u in staat om loonberekeningen en wettelijke aangiften efficiënt te beheren."
+            },
+            auditsDetail: {
+                title: "Sociale Controles",
+                text1: "Elk bedrijf kan worden onderworpen aan een bezoek van de sociale inspectie. In dit geval is het cruciaal om volledige en perfect conforme documenten te verstrekken. De inspectie kan ook overgaan tot het horen van uw medewerkers, wat grondige voorbereiding en betrouwbaar advies onmisbaar maakt.",
+                text2: "Onze experts begeleiden u tijdens het volledige auditproces om volledige naleving te garanderen en risico's te minimaliseren."
+            }
         }
     }
 };

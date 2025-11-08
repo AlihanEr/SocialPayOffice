@@ -783,6 +783,174 @@ section {
     transform: translateY(0);
 }
 
+/* ===== ABOUT PAGE ===== */
+.about-hero {
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f5f7fa 0%, #ffffff 50%, #e8eef7 100%);
+    padding-top: 120px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.about-hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-hero-title {
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-weight: 900;
+    color: var(--text-dark);
+    margin-bottom: 24px;
+}
+
+.about-hero-subtitle {
+    font-size: clamp(1.1rem, 2vw, 1.4rem);
+    color: var(--primary-color);
+    font-style: italic;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+.company-intro {
+    padding: 100px 0;
+    background: var(--bg-white);
+}
+
+.intro-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.intro-content .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.intro-text p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-light);
+}
+
+.intro-highlight {
+    font-size: 1.25rem !important;
+    color: var(--primary-color) !important;
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(4, 120, 87, 0.05);
+    border-left: 4px solid var(--primary-color);
+    border-radius: 8px;
+}
+
+.services-detail {
+    padding: 100px 0;
+    background: var(--bg-gray);
+}
+
+.service-detail-card {
+    background: var(--bg-white);
+    border-radius: 16px;
+    padding: 48px;
+    margin-bottom: 40px;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+}
+
+.service-detail-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+}
+
+.service-detail-icon {
+    width: 80px;
+    height: 80px;
+    min-width: 80px;
+    background: rgba(4, 120, 87, 0.1);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+}
+
+.service-detail-icon svg {
+    width: 40px;
+    height: 40px;
+}
+
+.service-detail-content {
+    flex: 1;
+}
+
+.service-detail-content h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 12px;
+}
+
+.service-detail-content h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.service-detail-content p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: var(--text-light);
+    margin-bottom: 16px;
+}
+
+.service-detail-content p:last-child {
+    margin-bottom: 0;
+}
+
+.cta-section {
+    padding: 80px 0;
+    background: var(--primary-color);
+    text-align: center;
+}
+
+.cta-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-content h2 {
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    color: var(--text-white);
+    margin-bottom: 32px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.cta-content .btn {
+    background: var(--text-white);
+    color: var(--primary-color);
+}
+
+.cta-content .btn:hover {
+    background: var(--bg-gray);
+    transform: translateY(-3px);
+}
+
 /* ===== FOOTER ===== */
 .footer {
     background: var(--bg-dark);
@@ -990,6 +1158,40 @@ section {
 
     section {
         padding: 60px 0;
+    }
+
+    .service-detail-card {
+        flex-direction: column;
+        padding: 32px;
+    }
+
+    .service-detail-icon {
+        width: 60px;
+        height: 60px;
+        min-width: 60px;
+    }
+
+    .service-detail-icon svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .service-detail-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .service-detail-content h4 {
+        font-size: 1.1rem;
+    }
+
+    .company-intro,
+    .services-detail {
+        padding: 60px 0;
+    }
+
+    .about-hero {
+        padding-top: 100px;
+        padding-bottom: 60px;
     }
 }
 
