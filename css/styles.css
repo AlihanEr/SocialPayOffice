@@ -1,9 +1,9 @@
 /* ===== VARIABLES ===== */
 :root {
-    --primary-color: #047857;
-    --primary-dark: #064e3b;
-    --primary-light: #10b981;
-    --accent-color: #34d399;
+    --primary-color: #1e293b;
+    --primary-dark: #0f172a;
+    --primary-light: #334155;
+    --accent-color: #475569;
     --text-dark: #1a1a1a;
     --text-light: #666666;
     --text-white: #ffffff;
@@ -215,7 +215,7 @@ body {
 .lang-btn.active {
     background: var(--primary-color);
     color: var(--text-white);
-    box-shadow: 0 2px 4px rgba(4, 120, 87, 0.2);
+    box-shadow: 0 2px 4px rgba(30, 41, 59, 0.2);
 }
 
 .lang-btn.active::after {
@@ -365,7 +365,7 @@ section {
 .section-tag {
     display: inline-block;
     padding: 8px 20px;
-    background: rgba(4, 120, 87, 0.1);
+    background: rgba(30, 41, 59, 0.1);
     color: var(--primary-color);
     border-radius: 30px;
     font-size: 14px;
@@ -431,7 +431,7 @@ section {
 .service-icon {
     width: 60px;
     height: 60px;
-    background: rgba(4, 120, 87, 0.1);
+    background: rgba(30, 41, 59, 0.1);
     border-radius: 12px;
     display: flex;
     align-items: center;
@@ -605,7 +605,7 @@ section {
     width: 50px;
     height: 50px;
     flex-shrink: 0;
-    background: rgba(4, 120, 87, 0.1);
+    background: rgba(30, 41, 59, 0.1);
     border-radius: 12px;
     display: flex;
     align-items: center;
@@ -659,7 +659,7 @@ section {
 .form-group textarea:focus {
     outline: none;
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 3px rgba(4, 120, 87, 0.1);
+    box-shadow: 0 0 0 3px rgba(30, 41, 59, 0.1);
 }
 
 .form-group textarea {
@@ -740,7 +740,7 @@ section {
 }
 
 .modal-icon.success {
-    background: rgba(4, 120, 87, 0.1);
+    background: rgba(30, 41, 59, 0.1);
     color: var(--primary-color);
 }
 
@@ -876,7 +876,7 @@ section {
     font-style: italic;
     margin-top: 20px;
     padding: 20px;
-    background: rgba(4, 120, 87, 0.05);
+    background: rgba(30, 41, 59, 0.05);
     border-left: 4px solid var(--primary-color);
     border-radius: 8px;
 }
@@ -907,7 +907,7 @@ section {
     width: 80px;
     height: 80px;
     min-width: 80px;
-    background: rgba(4, 120, 87, 0.1);
+    background: rgba(30, 41, 59, 0.1);
     border-radius: 16px;
     display: flex;
     align-items: center;
