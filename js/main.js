@@ -75,6 +75,18 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     const navbar = document.querySelector('.navbar');
+
+    function updateNavMenuPosition() {
+        if (navMenu && window.innerWidth <= 768) {
+            const navbarHeight = navbar.offsetHeight;
+            navMenu.style.top = navbarHeight + 'px';
+            navMenu.style.height = `calc(100vh - ${navbarHeight}px)`;
+        } else if (navMenu) {
+            navMenu.style.top = '';
+            navMenu.style.height = '';
+        }
+    }
+
     window.addEventListener('scroll', () => {
         const currentScroll = window.pageYOffset;
         if (currentScroll > 50) {
@@ -82,7 +94,11 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             navbar.classList.remove('scrolled');
         }
+        updateNavMenuPosition();
     });
+
+    window.addEventListener('resize', updateNavMenuPosition);
+    updateNavMenuPosition();
 
     const observerOptions = {
         threshold: 0.1,

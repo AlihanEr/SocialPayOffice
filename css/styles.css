@@ -1095,7 +1095,23 @@ section {
 
 @media (max-width: 768px) {
     .navbar {
-        height: 80px;
+        height: auto;
+    }
+
+    .navbar.scrolled {
+        padding: 0;
+    }
+
+    .navbar.scrolled .nav-content {
+        padding: 6px 0;
+    }
+
+    .navbar.scrolled .logo {
+        font-size: 18px;
+    }
+
+    .navbar.scrolled .logo-sub {
+        font-size: 11px;
     }
 
     .nav-content {
@@ -1104,23 +1120,21 @@ section {
 
     .nav-menu {
         position: fixed;
-        top: 80px;
-        right: -100%;
-        width: 80%;
-        max-width: 300px;
-        height: calc(100vh - 80px);
+        left: -100%;
+        width: 70%;
+        max-width: 280px;
         background: var(--bg-white);
         flex-direction: column;
         justify-content: flex-start;
         padding: 40px 24px;
-        box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
-        transition: right 0.3s ease;
+        box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease;
         z-index: 999;
         gap: 20px;
     }
 
     .nav-menu.active {
-        right: 0;
+        left: 0;
     }
 
     .language-switcher {
@@ -1132,6 +1146,15 @@ section {
 
     .hamburger {
         display: flex;
+        order: -1;
+        margin-right: auto;
+        margin-left: 0;
+    }
+
+    .logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     .hero {
