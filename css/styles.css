@@ -1181,6 +1181,10 @@ section {
         height: 50px;
     }
 
+    .navbar.scrolled .logo-image {
+        height: 35px;
+    }
+
     .hero {
         padding-top: 100px;
     }
